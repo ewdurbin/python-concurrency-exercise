@@ -33,7 +33,7 @@ Python 3.4 in hopes of alleviating some of the issues with the lamb that is
 `asyncio`.
 
 Your goal is to help us figure out why the following routes are causing trouble
-as they are currently configured and hopefull fix them!:
+as they are currently configured and hopefully fix them!:
 
   - `/check_feed`: Route which calls out to a slow external service to
     determine if there is anything interesting happening on the internet. In
