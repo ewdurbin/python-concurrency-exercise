@@ -60,5 +60,14 @@ Read up a bit more in the Gunicorn documentation and source code:
   - https://github.com/benoitc/gunicorn
   - http://docs.gunicorn.org/en/latest/index.html
 
+Write up a summary of the strengths and weaknesses of each worker type:
+
+  - standard preforked process worker
+  - thread pool workers
+  - async evented workers
+
+Pay particular attention to how they map onto the routes in this application as
+well as Python in general.
+
 You should now edit `nginx.conf` to reconfigure the `upstream` that each route
 connects to. Again, please discuss your choices!
